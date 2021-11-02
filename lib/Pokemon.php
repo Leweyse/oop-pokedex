@@ -1,63 +1,34 @@
 <?php
 declare(strict_types=1);
 
-class Pokemon
+class Pokemon extends Data
 {
-    private $input;
-    private $url;
-    private $data;
-
-    public function __construct($inputValue, $endpoint) {
-        $this -> input = $inputValue;
-        $id = $this -> input;
-
-        $this -> url = "https://pokeapi.co/api/v2/$endpoint/$id/";
-        $url = $this -> url;
-
-        $this -> data = getData($url);
-    }
-
-    public function data()
-    {
-        return $this -> data;
-    }
-
-    public function name()
-    {
-        $data = $this -> data();
-        $this -> name = $data['name'];
-
-        return $this -> name;
+    public function __construct($id) {
+        $this -> data = parent::data($id, "pokemon");
     }
 
     public function specieName()
     {
-        $data = $this -> data();
-        $this -> name = $data['species']['name'];
+        return $this -> data['species']['name'];
+    }
 
-        return $this -> name;
+    public function name()
+    {
+        return $this -> data['name'];
     }
 
     public function id()
     {
-        $data = $this -> data();
-        $this -> id = $data['id'];
-
-        return $this -> id;
+        return $this -> data['id'];
     }
 
     public function img()
     {
-        $data = $this -> data();
-        $this -> img = $data['sprites']['front_default'];
-        return $this -> img;
+        return $this -> data['sprites']['front_default'];
     }
 
     public function moves()
     {
-        $data = $this -> data();
-        $this -> moves = $data['moves'];
-
-        return $this -> moves;
+        return $this -> data['moves'];
     }
 }
