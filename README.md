@@ -25,11 +25,6 @@ Let's recreate our previous PHP Pokedex, but based on OOP.
 
 ## To Do
 
-- [ ] Implement classes.
-- [ ] Add methods and logic in them.
-- [ ] "index.php" config
-    - [ ] Require all the files with the classes.
-- [ ] Style file.
-- [ ] Create messages components.
+- [ ] Implement more OOP concepts in the project.
 
 [api]: https://pokeapi.co/
