@@ -32,4 +32,4 @@ Let's recreate our previous PHP Pokedex, but based on OOP.
 - [ ] Style file.
 - [ ] Create messages components.
 
-[api] = [https://pokeapi.co/]
+[api]: https://pokeapi.co/
