@@ -11,7 +11,7 @@ Pokedex with OOP (Object Oriented Programming).
 Let's recreate our previous PHP Pokedex, but based on OOP.
 
 <br/>
-<img src="assets/preview.png" width="100%">
+<img src="assets/pre-view.png" width="100%">
 <br/><br/>
 
 ## Pokedex
