@@ -5,23 +5,21 @@
 ## Description
 Pokedex with OOP (Object Oriented Programming).
 <br/>
-<br/>
 
 ## The Mission
-Let's recreate our previous PHP Pokedex, but based on OOP.
-
+Recreating my previous PHP Pokedex, but based on OOP.
 <br/>
-<img src="assets/pre-view.png" width="100%">
-<br/><br/>
 
-## Pokedex
+<img src="assets/pre-view.png" width="100%">
+<br/>
+
+## Features
   - Working with [PokeAPI][api].
   - Interaction with the user.
   - Displaying basic information.
   - Displaying evolution information.
+  - Fixed exceptions (API information).
   - No valid inputs will display error message.
-  - Fixed exceptions.
-
 <br/>
 
 ## To Do
