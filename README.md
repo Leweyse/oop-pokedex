@@ -15,7 +15,7 @@ Let's recreate our previous PHP Pokedex, but based on OOP.
 <br/><br/>
 
 ## Pokedex
-  - Working with [PokeAPI][https://pokeapi.co/].
+  - Working with [PokeAPI][api].
   - Interaction with the user.
   - Displaying basic information.
   - Displaying evolution information.
@@ -31,3 +31,5 @@ Let's recreate our previous PHP Pokedex, but based on OOP.
     - [ ] Require all the files with the classes.
 - [ ] Style file.
 - [ ] Create messages components.
+
+[api] = [https://pokeapi.co/]
