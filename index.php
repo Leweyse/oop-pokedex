@@ -3,10 +3,10 @@ declare(strict_types=1);
 
 $inputValue = $pokemon = $specie = $evolution = $evolSpecies = $evolPokemon = null;
 
-require 'lib/Data.php';
-require 'lib/Pokemon.php';
-require 'lib/Specie.php';
-require 'lib/Evolution.php';
+require 'models/Data.php';
+require 'models/Pokemon.php';
+require 'models/Specie.php';
+require 'models/Evolution.php';
 
 include "components/info.component.php";
 include "components/moves.component.php";

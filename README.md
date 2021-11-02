@@ -20,6 +20,7 @@ Let's recreate our previous PHP Pokedex, but based on OOP.
   - Displaying basic information.
   - Displaying evolution information.
   - No valid inputs will display error message.
+  - Fixed exceptions.
 
 <br/>
 
